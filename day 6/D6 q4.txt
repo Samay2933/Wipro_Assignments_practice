@@ -1,0 +1,21 @@
+import java.util.Scanner;
+// Java program to remove
+// elements from HashMap
+import java.io.*;
+import java.util.*;
+public class Main {
+
+    public static void main(String[] args) {
+	    Scanner s=new Scanner(System.in);
+        //write your answer here
+        Map<Integer, String> map = new HashMap<>();
+        int size = 4;
+        for(int i = 0; i <= size-1; i++){
+            map.put(i+1, s.next());
+        }
+        int key = s.nextInt();
+        System.out.println("Mappings of HashMap are : "+ map);
+        map.remove(key);
+        System.out.println("Mappings after removal are : "+ map);
+    }
+}

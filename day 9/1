@@ -1,0 +1,6 @@
+
+select year, semester, count(professor_id) as no_of_professor
+from schedule
+group by year, semester
+having course_id between 1 and 10
+order by year;

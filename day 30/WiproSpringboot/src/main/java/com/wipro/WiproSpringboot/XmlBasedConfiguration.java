@@ -1,0 +1,11 @@
+package com.wipro.WiproSpringboot;
+
+package com.gl.configstyles.xmlbased;
+
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.ImportResource;
+
+@Configuration
+@ImportResource("classpath:xml_based_bean_configuration.xml")
+public class XmlBasedConfiguration {
+}

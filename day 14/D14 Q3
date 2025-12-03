@@ -1,0 +1,17 @@
+// write your solution here
+function findMax(arr){
+    let max = arr[0];
+    arr.forEach((num) => 
+        max = Math.max(max, num)
+    )
+    return max;
+}
+
+
+// Test the function with an array
+const numbersArray = [2, 8, 5, 1, 7];
+const result = findMax(numbersArray);
+
+// Display the result
+console.log("Array:", numbersArray);
+console.log("Maximum Value:", result);

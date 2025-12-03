@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;springwebmvc/src/main/java/com/company/controller/Homecontroller.java&apos; to &apos;HomeController.java&apos;" description="Rename resource &apos;Homecontroller.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/com/company/controller/Homecontroller.java" name="HomeController.java" stamp="1763536539023" updateReferences="true"/>
+</session>

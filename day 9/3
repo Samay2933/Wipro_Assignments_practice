@@ -1,0 +1,10 @@
+-- Write your query below
+select e.FirstName, e.LastName, d.DepartmentName, e.Salary
+from Employees e
+join Departments d on e.DepartmentID = d.DepartmentID
+where e.Salary > (
+    select avg(ee.Salary)
+    from Employees ee
+    where ee.DepartmentID = e.DepartmentID
+)
+order by e.Salary;

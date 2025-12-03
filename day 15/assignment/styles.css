@@ -1,0 +1,18 @@
+body {
+  background-color: #f8f9fa;
+}
+h1, h2 {
+  font-weight: 600;
+}
+.table th, .table td {
+  text-align: center;
+  vertical-align: middle;
+}
+.navbar {
+  margin-bottom: 20px;
+}
+@media (max-width: 768px) {
+  h1, h2 {
+    font-size: 1.5rem;
+  }
+}
